@@ -3,11 +3,9 @@ package tovar;
 public class ProductManager {
     private Repository repo;
 
-    public ProductManager() {
-        this.repo = repo;
-    }
 
     public ProductManager(Repository repo) {
+        this.repo = repo;
 
     }
 
